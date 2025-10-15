@@ -1,0 +1,33 @@
+{
+  "name": "randomuser-api-test-automation",
+  "version": "1.0.0",
+  "description": "Automated test suite for Random User API with TypeScript and Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:ci": "jest --ci --reporters=default --reporters=jest-junit",
+    "build": "tsc",
+    "clean": "rm -rf dist coverage test-reports"
+  },
+  "keywords": [
+    "api-testing",
+    "automation",
+    "typescript",
+    "jest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/axios": "^0.9.36",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.5.2",
+    "axios": "^1.12.2",
+    "jest": "^30.2.0",
+    "jest-html-reporter": "^4.3.0",
+    "jest-junit": "^16.0.0",
+    "ts-jest": "^29.4.4",
+    "typescript": "^5.9.2"
+  }
+}
